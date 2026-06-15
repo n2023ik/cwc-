@@ -1,0 +1,30 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+html,
+body,
+#root {
+	min-height: 100%;
+	background-color: #02040c;
+	background:
+		radial-gradient(circle at 14% 18%, rgba(36, 74, 187, 0.32) 0%, rgba(5, 10, 30, 0) 36%),
+		radial-gradient(circle at 86% 12%, rgba(31, 194, 216, 0.22) 0%, rgba(5, 10, 30, 0) 34%),
+		radial-gradient(circle at 50% 120%, rgba(160, 86, 255, 0.22) 0%, rgba(5, 10, 30, 0) 40%),
+		linear-gradient(180deg, #060a1b 0%, #030613 58%, #02040c 100%);
+	color-scheme: dark;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	overscroll-behavior-y: none;
+}
+
+html {
+	scrollbar-gutter: stable;
+}
+
+#root {
+	isolation: isolate;
+}
